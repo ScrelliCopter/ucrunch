@@ -7,7 +7,6 @@ from urllib.request import urlopen
 def main():
 	File = namedtuple("File", "path repo rpath")
 	files = [
-		File("src/crnlib.h", "BinomialLLC/crunch", "inc/crnlib.h"),
 		File("src/stb_dxt.h", "nothings/stb", "stb_dxt.h"),
 		File("src/stb_image.h", "nothings/stb", "stb_image.h")
 	]
