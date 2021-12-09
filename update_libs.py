@@ -7,8 +7,9 @@ from urllib.request import urlopen
 def main():
 	File = namedtuple("File", "path repo rpath")
 	files = [
-		File("src/stb_dxt.h", "nothings/stb", "stb_dxt.h"),
-		File("src/stb_image.h", "nothings/stb", "stb_image.h")
+		File("src/stb/stb_dxt.h", "nothings/stb", "stb_dxt.h"),
+		File("src/stb/stb_image.h", "nothings/stb", "stb_image.h"),
+		File("src/stb/stb_image_resize.h", "nothings/stb", "stb_image_resize.h")
 	]
 
 	for file in files:
